@@ -47,12 +47,13 @@
                 .src {
                     font-size: 10pt;
                 }
-				#locateButton { position: absolute; bottom:30px; right:10px; padding:10px; z-index:500; background: white; background: rgba(255,255,255,0.9); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; text-align: right }
+		#locateButton { position: absolute; bottom:30px; right:10px; padding:10px; z-index:500; background: white; background: rgba(255,255,255,0.9); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; text-align: right }
             </style>
 
         </head>
         <body>
-
+		
+	<input type="button" id="locateButton" value="Standort anzeigen oder erneut laden!" onClick="javascript:getLocationLeaflet();">
         <div id="map"></div>
 
         <script>
